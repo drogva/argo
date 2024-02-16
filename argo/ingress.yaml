@@ -8,9 +8,9 @@ metadata:
     alb.ingress.kubernetes.io/load-balancer-name: yusa-mario
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
-    external-dns.alpha.kubernetes.io/hostname: www.seunghobet.link
+    external-dns.alpha.kubernetes.io/hostname: www.seunghobet.click
     alb.ingress.kubernetes.io/actions.redirect-to-https: '{"Type":"redirect","RedirectConfig":{"Port":"443","Protocol":"HTTPS","StatusCode":"HTTP_302"}}'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-northeast-2:553186839963:certificate/fcb6b1e3-6202-4ac0-a954-1a323e3688b4
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-northeast-2:553186839963:certificate/d537eb5b-a669-4cd8-88b7-016e079325bf
 spec:
   ingressClassName: alb
   rules:
